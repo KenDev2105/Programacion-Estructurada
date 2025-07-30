@@ -6,6 +6,8 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+// **Ejercicios
+
 // Ciudad - Usuario
 rl.question('¿Dónde vives? ', (city) => {
     console.log(`Vives en ${city}!`);

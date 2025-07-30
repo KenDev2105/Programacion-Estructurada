@@ -22,10 +22,3 @@ rl.question('¿Cuál es tu nombre? ', (name) => {
     });
 });
 
-
-
-
-
-
-
-
