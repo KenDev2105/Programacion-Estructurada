@@ -2,7 +2,7 @@
   "name": "readline",
   "version": "1.0.0",
   "description": "",
-  "main": "c1s4.js",
+  "main": "C1S5.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
