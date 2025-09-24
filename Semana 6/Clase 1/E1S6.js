@@ -125,8 +125,6 @@ Tareas a realizar:
 -Extraer titulo y ubicacion en variables.
 -Mostrar el objeto actualizado. */
 
-console.log("EJERCICIO 3")
-
 const libro = {
     informacion: {
         titulo: "Harry Poter",
@@ -161,10 +159,4 @@ libro.informacion.genero = "Romance"
 console.log(libro.informacion)
 
 // Extraer titulo y ubicacion en variables.
-const {titulo} = libro.informacion
-console.log(titulo)
-const {ubicacion} = libro.disponibilidad
-console.log(ubicacion)
-
-// Mostrar el objeto actualizado.
-console.log(libro)
+const {titulo} = libro.in
