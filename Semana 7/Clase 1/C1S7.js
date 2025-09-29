@@ -25,3 +25,13 @@ console.log(meses)
 for (let i = 0; i <= meses.length;i++){
     console.log(meses[i])
 }
+
+numeros.splice(2,0,100)
+console.log(numeros)
+
+// Imprimir el primer y ultimo dia de la semana
+
+const dias = ["Lunes", "Martes","Miercoles","Jueves","Viernes","Sabado", "Domingo"]
+let primer = dias[0]
+let ultimo = dias[dias.length - 1]
+console.log(ultimo)
