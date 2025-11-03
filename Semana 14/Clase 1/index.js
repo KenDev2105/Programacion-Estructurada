@@ -14,36 +14,36 @@ alfabéticamente. */
 
 function stringOrdenado(cadena){
     const cadenaMin = cadena.toLowerCase()
-    return cadenaMin.split('').sort().join('')
+    return cadenaMin.split("").sort().join("")
 }
 
 //!
-/* rl.question("Ingrese una frase o palabra: ", (texto) =>{
+rl.question("Ingrese una frase o palabra: ", (texto) =>{
     const textoOrdenado = stringOrdenado(texto)
     console.log(`Texto original: ${texto}`)
     console.log(`Texto ordenado alfabéticamente: ${textoOrdenado}`)
     rl.close()
-}) */
+})
 
 /* Ejercicio 2. Escriba un programa que solicite al usuario una cadena de texto, este programa debe
 de contener una función que reciba la cadena como parámetro y devuelva una nueva
 cadena donde la primera letra de cada palabra esté en mayúsculas.  */
 
 function cadenaUpper(string){
-    const palabras = string.split(' ')
+    const palabras = string.split(" ")
     const palabrasMayus = palabras.map(palabra => {
         return palabra[0].toUpperCase() + palabra.slice(1).toLowerCase()
     })
-    return palabrasMayus.join(' ')
+    return palabrasMayus.join(" ")
 }
 
 //!
-/* rl.question("Ingrese una frase o palabra: " , (texto) =>{
+rl.question("Ingrese una frase o palabra: " , (texto) =>{
     const primeraMayus = cadenaUpper(texto)
     console.log(`Texto original: ${texto}`)
     console.log(`Texto con la primer letra en mayusculas: ${primeraMayus}`)
     rl.close()
-}) */
+})
 
 /* Ejercicio 3. Escriba un programa que solicite al usuario una palabra o cadena de texto, crea una
 función que reciba como parámetro el texto y devuelva la cantidad de caracteres que
@@ -138,6 +138,6 @@ rl.question("Ingrese su salario base: ", (salario)=>{
             console.log(`Salario base: $${salario} \nHoras extra trabajadas: ${horasEx} \nPago por hora de trabajo normal: $${horasBase}`)
             console.log(`Su salario total es de: ${salarioTotal(salario,horasEx,horasBase)}`)
         rl.close()
-        });
+         });
     });
-});             
+});     
